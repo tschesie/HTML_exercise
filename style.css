@@ -1,0 +1,23 @@
+.container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    right: 0%;
+    width: 20%;
+  }
+  
+  .scrolling {
+    animation: marquee 2s linear infinite;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to { 
+      transform: translateX(-100%);
+    }
+  }
