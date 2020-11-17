@@ -1,6 +1,5 @@
 function druckeVersandticketDruckerInJessicasZimmer(kunde, anschrift) {
     console.log(kunde)
-    console.log(anschrift);
 }
 
 
