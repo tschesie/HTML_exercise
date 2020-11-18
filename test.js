@@ -24,10 +24,3 @@ function order(kunde, anschrift, einzelstückpreis, anzahl) {
 order("Philipp Hellwich", "Am Hölzlein 18", 12, 10)
 
 
-
-// Implementiere eine neue Funktion druckeRechnung(), die mit dem errechneten Betrag aufgerufen wird. Diese soll auf der Konsole den berechneten Betraus ausgeben.
-
-
-function addiereneFunktion(parameter1, parameter2) {
-    return parameter1 + parameter2
-}
