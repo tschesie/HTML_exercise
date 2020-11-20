@@ -15,15 +15,19 @@ function getBuchungskonto(konto) {
     return konto
 }
 
+function buchhaltung(kontoName) {
+    console.log(kontoName)
+}
+
 function order(kunde, anschrift, einzelstückpreis, anzahl, konto) {
     const berechneterBetrag = berechneBetrag(einzelstückpreis, anzahl)
     const kontoName = getBuchungskonto(konto)
-    getBuchungskonto(konto)
     druckeVersandticketDruckerInJessicasZimmer(kunde, anschrift)
-    berechneBetrag(einzelstückpreis, anzahl)
     druckeRechnung(berechneterBetrag)
+    buchhaltung(kontoName)
 }
 
 order("Philipp Hellwich", "Am Hölzlein 18", 12, 10, "Materialkosten")
 
-//ich hab keine Ahnung wieso das nicht geht
+//ist's egal, ob ich in Zeile 29 "kontoName" oder "konto" rein schreibe?
+//ich versteh immer noch nicht für was es gut sein soll dieses return in Zeile 7,15 zu haben.
